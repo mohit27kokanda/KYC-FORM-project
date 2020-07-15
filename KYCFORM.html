@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+    KYC FORM</title>
+    <link rel="stylesheet" type="text/css" href="StyleKYCFORM.css">
+</head>
+
+<body>
+    <header id="title">
+        <p>KYC</p>
+    </header>
+    <form id="kyc-form">
+        <div class="form-group" id="name">
+            <div>
+                <label id="name-label" for="name">First Name</label>
+
+                <input type="text" name="name" id="firstname" class="form-control" required />
+            </div>
+            <div>
+                <label id="name-label" for="name">Middle Name</label>
+                <input type="text" name="name" id="middlename" class="form-control" required />
+            </div>
+            <div>
+                <label id="name-label" for="name">Last Name</label>
+                <input type="text" name="name" id="lastname" class="form-control" required />
+            </div>
+
+        </div>
+        <div class="form-group company-name">
+            <label id="company-label" for="name">Company Name</label>
+            <input type="text" name="name" id="companyname" class="form-control" required />
+            
+
+        </div>
+        <hr>
+        <div class="form-group reg">
+            <label id="reg-label" for="number">Registered Moblie No.</label>
+            <input type="number" name="number" id="mobile-no" class="form-control" required />
+
+        </div>
+        <hr>    
+        <div class="form-group " id="regid">
+            <div class="reg-email-id">
+                <label id="email-lable" for="email">
+                    Registered Email id
+                </label>
+                <input type="email" name="email" id="e-mail" class="form-control" required />
+            </div>
+            <div class="DOB">
+                <label id="date-lable" for="date">
+                    Date of Birth(As Per PAN Card)
+                </label>
+                <input type="date" name="date" id="date" class="form-control" required />
+            </div>
+            <div class="PCN">
+                <label id="PanNumber-lable" for="PanNumber">
+                    PAN Card Number
+                </label>
+                <input type="text" name="PanNumber" id="PanNumber" class="form-control" required />
+            </div>
+        </div>
+        <hr>
+
+        <div class="form-group pin-code">
+           <div>
+            <label id="PinCode-lable" for="PinCode">
+                Pin Code
+            </label>
+            <input type="number" name="PinCode" id="PinCode" class="form-control" required />
+            </div>
+            <div>
+            <label id="PinCode-lable" for="date">
+                District
+            </label>
+            <input type="text" name="district" id="district" class="form-control" required />
+            </div>
+            <div>
+            <label id="State-lable" for="State">
+                State
+            </label>
+            <input type="text" name="State" id="State" class="form-control" required />
+            </div>
+        </div>
+
+        <div class="form-group city">
+           <div>
+            <label id="City-lable" for="City">
+                City
+            </label>
+            <input type="text" name="City" id="City" class="form-control" required />
+            </div>
+            <div>
+            <label id="Address-lable" for="Address">
+                Address (As Per Adhaar Back Side)
+            </label>
+            <input type="text" name="Address" id="Address" class="form-control" required />
+            </div>
+        </div>
+        <div class=" note form-group">
+            Note - Clear Self Attested Scanned image is required
+        </div>
+
+
+        <div class="form-group" id="Adhaar-Card">
+            <div class="photo-adhaar">
+                <label id="Adhaar-lable" for="Adhaar">
+                    <strong>Adhaar Card</strong>
+                </label>
+                <input type="file" name="Adhaar" id="Adhaar" class="form-control" required />
+                <img src="https://aadhaarcardinfo.com/wp-content/uploads/2017/11/sample-images-aadhar-card-e1510748542474.jpg" alt="Adhaar Card Photo"></div>
+            <div class="pan-photo">
+                <label id="Pan-lable" for="Pan-card">
+
+                    <strong>Pan Card</strong>
+                </label>
+                <input type="file" name="Pan-card" id="PanCard" class="form-control" required />
+                <img src="https://assets1.cleartax-cdn.com/s/img/20171019154235/pan6.png" alt="Pan Card Photo">
+            </div>
+
+        </div>
+        <div class="form-group" id="StepUpload">
+            <p><strong>Steps to upload:</strong></p>
+            <ul>
+                <li>Download E-Adhaar form <a>https://eaadhaar.uidai.gov.in/</a></li>
+                <li>Take a print and self attest the document</li>
+                <li>Scan and upload the seft attest copy of E-Adhaar here</li>
+            </ul>
+        </div>
+
+        <div class="form-group" id="StepUpload2">
+            <p><strong>Steps to upload:</strong></p>
+            <ul>
+                <li>Only JPG/JPEG/PDF Format are allowed</li>
+                <li>The Document must be latest and clear</li>
+
+            </ul>
+        </div>
+        <div class="form-group" id="button">
+            <button type="submit">Update KYC</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
